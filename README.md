@@ -1,3 +1,19 @@
+# Wiki
+## Description
+CS50’s [Introduction to Artificial Intelligence with Python](https://www.edx.org/learn/artificial-intelligence/harvard-university-cs50-s-introduction-to-artificial-intelligence-with-python) Project 0 - [Tic-tac-toe](https://cs50.harvard.edu/ai/2024/projects/0/tictactoe/)
+
+## Project description
+Using Minimax, implement an AI to play Tic-Tac-Toe optimally.
+
+## git clone https://github.com/Ayrton-Machado/tictactoe
+
+## How to run
+[Python3](https://www.python.org/) is a requirement.  
+- Install pygame with `pip install pygame`
+- Run with `python manage.py runserver` or `python3 manage.py runserver`
+
+## TODO
+
 Complete the implementations of player, actions, result, winner, terminal, utility, and minimax.
 
 [X] The player function should take a board state as input, and return which player’s turn it is (either X or O).
@@ -17,7 +33,7 @@ Complete the implementations of player, actions, result, winner, terminal, utili
 [X] The winner function should accept a board as input, and return the winner of the board if there is one.
     [X] If the X player has won the game, your function should return X. If the O player has won the game, your function should return O.
     [X] One can win the game with three of their moves in a row horizontally, vertically, or diagonally.
-    [] You may assume that there will be at most one winner (that is, no board will ever have both players with three-in-a-row, since that would be an invalid board state).
+    [X] You may assume that there will be at most one winner (that is, no board will ever have both players with three-in-a-row, since that would be an invalid board state).
     [X] If there is no winner of the game (either because the game is in progress, or because it ended in a tie), the function should return None.
 
 [X] The terminal function should accept a board as input, and return a boolean value indicating whether the game is over.
@@ -28,6 +44,6 @@ Complete the implementations of player, actions, result, winner, terminal, utili
     [X] If X has won the game, the utility is 1. If O has won the game, the utility is -1. If the game has ended in a tie, the utility is 0.
     [X] You may assume utility will only be called on a board if terminal(board) is True.
 
-[] The minimax function should take a board as input, and return the optimal move for the player to move on that board.
-    [] The move returned should be the optimal action (i, j) that is one of the allowable actions on the board. If multiple moves are equally optimal, any of those moves is acceptable.
-    [] If the board is a terminal board, the minimax function should return None.
+[X] The minimax function should take a board as input, and return the optimal move for the player to move on that board.
+    [X] The move returned should be the optimal action (i, j) that is one of the allowable actions on the board. If multiple moves are equally optimal, any of those moves is acceptable.
+    [X] If the board is a terminal board, the minimax function should return None.
