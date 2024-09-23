@@ -1,4 +1,4 @@
-# Wiki
+# Tic-Tac-Toe
 ## Description
 CS50’s [Introduction to Artificial Intelligence with Python](https://www.edx.org/learn/artificial-intelligence/harvard-university-cs50-s-introduction-to-artificial-intelligence-with-python) Project 0 - [Tic-tac-toe](https://cs50.harvard.edu/ai/2024/projects/0/tictactoe/)
 
