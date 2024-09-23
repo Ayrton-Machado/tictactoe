@@ -10,7 +10,7 @@ Using Minimax, implement an AI to play Tic-Tac-Toe optimally.
 ## How to run
 [Python3](https://www.python.org/) is a requirement.  
 - Install pygame with `pip install pygame`
-- Run with `python manage.py runserver` or `python3 manage.py runserver`
+- Run with `python runner.py` or `python3 runner.py`
 
 ## TODO
 
